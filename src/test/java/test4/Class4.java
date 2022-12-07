@@ -6,15 +6,12 @@ import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class Class4 {
 public static WebDriver driver;
 public static Properties prop;
 public static FileInputStream ip;
-
-@Test
-public void PropertyFile() throws Exception {
+public static void main (String[] args) throws Exception {
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	
